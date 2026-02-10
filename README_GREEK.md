@@ -1,15 +1,38 @@
-# 🎵 Audio Converter - Μετατροπέας Ήχου
+# 🎵 Audio Converter - Μετατροπέας Ήχου για Τηλεφωνικά Κέντρα
 
-Εφαρμογή μετατροπής αρχείων ήχου MP3/MP4 σε WAV με συγκεκριμένες προδιαγραφές για Call Center.
+Εφαρμογή μετατροπής αρχείων ήχου MP3/MP4 σε WAV με συγκεκριμένες προδιαγραφές για τηλεφωνικά κέντρα 3CX και Yeastar.
 
 > **🚀 ΓΡΗΓΟΡΗ ΕΚΚΙΝΗΣΗ:** Κάντε διπλό κλικ στο `QUICK_START.bat` ή ανοίξτε το `dist\AudioConverter.exe`
 
-## 📋 Προδιαγραφές Εξόδου
+---
+
+## 📞 Σχετικά με το Εργαλείο
+
+Αυτός ο μετατροπέας σχεδιάστηκε ειδικά για την προετοιμασία φωνητικών μηνυμάτων για συστήματα **Digital Receptionist** (IVR) που χρησιμοποιούνται σε:
+- **Τηλεφωνικά Κέντρα 3CX**
+- **Τηλεφωνικά Κέντρα Yeastar**
+
+### Προδιαγραφές Εξόδου
 - **Format**: WAV (PCM)
 - **Sample Rate**: 8 kHz
 - **Bit Depth**: 16 bit
 - **Channels**: Mono
 - **Max Size**: 100MB
+
+Αυτές οι προδιαγραφές **απαιτούνται** από τα συστήματα 3CX και Yeastar για βέλτιστη ποιότητα φωνής.
+
+---
+
+## 🎙️ Χρήση με AI Φωνές (ElevenLabs)
+
+Αυτό το εργαλείο είναι ιδανικό για μετατροπή φωνητικών μηνυμάτων που δημιουργούνται με AI από υπηρεσίες όπως:
+- **[ElevenLabs](https://elevenlabs.io/)** - Επαγγελματική δημιουργία φωνής με AI
+
+### Ροή Εργασίας:
+1. Δημιουργήστε φωνητικά μηνύματα στο [ElevenLabs](https://elevenlabs.io/)
+2. Κατεβάστε τα ως MP3/MP4
+3. Μετατρέψτε τα με αυτό το εργαλείο σε WAV συμβατό με τηλεφωνία
+4. Ανεβάστε τα στο Digital Receptionist του 3CX ή Yeastar
 
 ---
 
@@ -125,10 +148,36 @@ Call Center Voice Converter/
 
 **Μετατροπή:**
 - Φόρτωση MP3/MP4
-- Resampling σε 8 kHz
+- Resampling σε 8 kHz (τηλεφωνικό standard)
 - Μετατροπή σε Mono
 - 16-bit PCM encoding
 - Export σε WAV
+
+**Γιατί 8 kHz;**
+- Standard για τηλεφωνία (G.711 codec)
+- Βελτιστοποιημένο για φωνή (300-3400 Hz)
+- Συμβατό με όλα τα τηλεφωνικά συστήματα
+- Μειωμένο μέγεθος αρχείου
+
+---
+
+## 👨‍💻 Developer
+
+**Διονύσης Πρόκος**
+
+Εξειδίκευση σε:
+- Τηλεφωνικά Κέντρα (3CX, Yeastar)
+- Digital Receptionist Solutions
+- AI Voice Integration
+- Telephony Audio Processing
+
+---
+
+## 🔗 Χρήσιμοι Σύνδεσμοι
+
+- **ElevenLabs**: https://elevenlabs.io/ - AI Δημιουργία Φωνής
+- **3CX**: https://www.3cx.com/ - Τηλεφωνικό Σύστημα
+- **Yeastar**: https://www.yeastar.com/ - PBX Solutions
 
 ---
 
@@ -138,6 +187,18 @@ Free to use για προσωπική και εμπορική χρήση.
 
 ---
 
-## 🎯 Credits
+## 🎯 Ιδανικό Για:
 
-Developed for Call Center voice file conversion.
+- ✅ Call Centers
+- ✅ Τηλεφωνικά Κέντρα Επιχειρήσεων
+- ✅ Digital Receptionist / IVR
+- ✅ Auto-Attendant
+- ✅ Φωνητικά Μενού
+- ✅ Μηνύματα Αναμονής
+- ✅ Πολυγλωσσικά Συστήματα
+
+---
+
+**Made with ❤️ by Διονύσης Πρόκος**
+
+*Μετατροπή AI φωνών σε τηλεφωνικά μηνύματα από το 2026*
