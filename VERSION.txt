@@ -1,0 +1,28 @@
+Audio Converter
+Version: 1.0.0
+Build Date: 2026-02-10
+
+Features:
+- MP3 to WAV conversion
+- MP4 to WAV conversion
+- Output: PCM, 8 kHz, 16 bit, Mono
+- Max file size check: 100MB
+- Drag & Drop support
+- Progress tracking
+- Greek UI
+- Standalone executable (no installation required)
+
+Technical Stack:
+- Python 3.11
+- PyQt5 5.15.10
+- pydub 0.25.1
+- FFmpeg (embedded)
+- PyInstaller 6.3.0
+
+System Requirements:
+- Windows 10/11
+- 64-bit processor
+- ~200MB disk space
+- Visual C++ Redistributable (usually pre-installed)
+
+License: Free to use
