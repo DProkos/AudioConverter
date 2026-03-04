@@ -6,7 +6,7 @@
 
 ---
 
-## Download
+## Download Exe
 
 [⬇ Download Outlook Credential Cleaner](https://github.com/DProkos/OutlookCredentialCleaner/releases/download/v1.0/AudioConverter.exe)
 ## 📞 Σχετικά με το Εργαλείο
